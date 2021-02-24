@@ -3,4 +3,4 @@ breadth=int(input('enter the value:'))
 
 Area=(length*breadth)/2
 
-print(f'The area of triangle is {Area}')
+print(f'The area of right angled triangle is {Area}')
