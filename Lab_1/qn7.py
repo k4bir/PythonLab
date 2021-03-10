@@ -10,7 +10,7 @@ bus_speed=25
 bus_t=bus_distance/bus_speed
 bus_stop=2*10
 bus_time=(bus_t*60)+bus_stop
-print(f'time taken by bus is {bus_time}')
+print(f'Total time taken by bus is {bus_time}')
 
 #for jogging
 jog_distance=2
@@ -23,9 +23,9 @@ run_speed=15
 run_time=(run_distance/run_speed)*60
 
 total_time=(jog_time+run_time)
-print(f'time taken by running is {total_time}')
+print(f'Total time taken by running is {total_time}')
 
 if bus_time>total_time:
-    print("running is faster")
+    print("Taking bus is slower than running !!")
 else:
-    print("bus is faster")
+    print("Taking bus is faster than running !!")
